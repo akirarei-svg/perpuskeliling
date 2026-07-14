@@ -135,38 +135,10 @@
             display: block;
         }
 
-        .map-box {
-            background: linear-gradient(135deg, var(--dark-2), var(--dark));
-            border-radius: var(--radius-lg);
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 1.5rem;
-        }
-
-        .map-box i {
-            font-size: 3rem;
-            color: #60A5FA;
-            margin-bottom: 1rem;
-        }
-
-        .map-box h3 {
-            color: #fff;
-            margin-bottom: .5rem;
-            font-size: 1rem;
-        }
-
-        .map-box p {
-            color: rgba(255, 255, 255, .5);
-            font-size: .875rem;
-            margin-bottom: 1.25rem;
-        }
-
+       .map-box { background:linear-gradient(135deg,var(--dark-2),var(--dark)); border-radius:var(--radius-lg); height:300px; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; text-align:center; padding:2rem; margin-top:1.5rem; }
+.map-box i { font-size:3rem; color:#60A5FA; margin-bottom:1rem; }
+.map-box h3 { color:#fff; margin-bottom:.5rem; font-size:1rem; }
+.map-box p { color:rgba(255,255,255,.5); font-size:.875rem; margin-bottom:1.25rem; }
         .form-row {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -318,14 +290,15 @@
                         </table>
                     </div>
 
-                    <div class="map-box">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Jl. Pustaka Raya No.1</h3>
-                        <p>Kel. Harapan, Kec. Cilincing, Jakarta Utara</p>
-                        <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-white btn-sm">
-                            <i class="fas fa-map"></i> Buka di Google Maps
-                        </a>
-                    </div>
+<iframe
+    src="https://maps.google.com/maps?q=Jl.+Pustaka+Raya+No.1,+Kel.+Harapan,+Kec.+Cilincing,+Jakarta+Utara&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="300"
+    style="border: 0; border-radius: var(--radius-lg); margin-top: 1.5rem;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
                 </div>
 
                 <div id="formSection">
